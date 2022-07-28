@@ -2,7 +2,9 @@
 
 -------------------------------------------------------
 
-Projeto onde o usuário inseri uma lista de pessoas e sorteia uma pessoa da lista
+- Projeto onde o usuário inseri uma lista de pessoas e sorteia uma pessoa da lista
+
+- A lista de pessoas é armazenada no localStorage
 
 
 Teste aqui:
