@@ -7,6 +7,6 @@
 - A lista de pessoas é armazenada no localStorage
 
 
-Teste aqui:
-https://mfcastilho.github.io/sorteia-pessoa/
+- Teste aqui:
+  https://mfcastilho.github.io/sorteia-pessoa/
 
