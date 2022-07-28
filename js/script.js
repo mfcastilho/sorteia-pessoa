@@ -40,6 +40,9 @@ function cleanList() {
   arrayPessoas = [];
   localStorage.setItem("meuArrayPessoas", JSON.stringify(arrayPessoas));
   document.getElementById("formulario_nova_pessoa").value = "";
+
+  let resultDiv = document.getElementById("mostra-pessoa_sorteada_ou_lista_pessoas");
+  resultDiv.innerHTML = "";
   //let textArea = document.createElement("textarea").value = "";
   //let resultDiv = document.getElementById("mostra-pessoa_sorteada_ou_lista_pessoas");
   
