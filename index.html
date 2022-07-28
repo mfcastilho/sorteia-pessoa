@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Sorteando uma Pessoa</title>
+</head>
+<body>
+  <header>
+    <h1>Sorteando uma Pessoa</h1>
+  </header>
+  <main>
+    <div id="mostra-pessoa_sorteada_ou_lista_pessoas"></div>
+    <section id="caixa-form">
+      <label id="label-pessoa" for="inserindo_pessoa_lista">Insira uma pessoa na lista</label>
+      <input id="formulario_nova_pessoa" title="formulario_nova_pessoa" type="text">
+      <input id="botao-salvar_pessoa" type="button"  value="Salvar Pessoa" onclick="salvarPessoa_naLista()">
+      <button id="botao-sortear" onclick="sortear()">Sortear</button>
+      <input id="botao-mostra_Lista" type="button" value="Mostra lista" onclick="mostraListaPessoas()">
+      <input id="botao-limpar_Lista" type="button" value="Limpar lista" onclick="cleanList()">
+    </section>
+    
+  </main>
+  <footer></footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

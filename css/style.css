@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  padding: 20px;
+}
+
+h1{
+  background-color: burlywood;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#mostra-pessoa_sorteada_ou_lista_pessoas{
+  width: 30%;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  
+}
+
+#caixa-form{
+  width: 60%;
+  background-color: antiquewhite;
+  margin: auto;
+  padding: 20px 0 20px 0;
+
+}
+#caixa-form label{
+  font-weight: bold;
+}
+#caixa-form input, #caixa-form label, #caixa-form button{
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 20px;
+  font-weight: bold;
+}
+
+#caixa-form input, #caixa-form button{
+  margin-bottom: 10px;
+  height: 25px;
+}
+
+input[type="button"], button{
+  border: none;
+  background-color: orange;
+  color: #FFF;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover, button:hover{
+  background-color: orangered;
+}
+
+
+#label-pessoa, #formulario_nova_pessoa, #botao-salvar_pessoa, #botao-sortear, #botao-mostra_Lista{
+  display: block;
+  
+}
+#formulario_nova_pessoa{
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 0.5px solid  black;
+  outline: none;
+}
+
+#botao-salvar_pessoa, #botao-sortear, #botao-mostra_Lista, #botao-limpar_Lista{
+  margin-bottom: 10px;
+  width: 140px;
+}
+
+footer{
+  margin-top: 20px;
+}
